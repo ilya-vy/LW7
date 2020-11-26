@@ -1,0 +1,15 @@
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\bin\Debug\ООП_ЛР7_З1.exe.config
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\bin\Debug\ООП_ЛР7_З1.exe
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\bin\Debug\ООП_ЛР7_З1.pdb
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.csprojAssemblyReference.cache
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\MainWindow.g.cs
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\App.g.cs
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1_MarkupCompile.cache
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1_MarkupCompile.lref
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\MainWindow.baml
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.g.resources
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.Properties.Resources.resources
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.csproj.GenerateResource.cache
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.csproj.CoreCompileInputs.cache
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.exe
+C:\Users\JawJag\source\repos\ООП_ЛР7_З1\ООП_ЛР7_З1\obj\Debug\ООП_ЛР7_З1.pdb

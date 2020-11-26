@@ -1,0 +1,39 @@
+﻿<Window x:Class="ООП_ЛР7_З1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ООП_ЛР7_З1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="43,41,158,61">
+        <DataGrid x:Name ="newGrid" HorizontalAlignment="Left" Height="399" Margin="336,-32,-144,-50" VerticalAlignment="Top" Width="399" HeadersVisibility="None" Visibility="Hidden"/>
+        <Button Content="START" HorizontalAlignment="Left" Margin="239,14,0,0" VerticalAlignment="Top" Width="97" Height="26" FontSize="16" Click="Button_Click"/>
+        <TextBox x:Name ="TextBox1" HorizontalAlignment="Left" Height="26" Margin="139,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="16"/>
+        <Label Content="Enter matrix size:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <TextBox x:Name ="TextBox2" HorizontalAlignment="Left" Height="26" Margin="191,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="16"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="170,14,0,0" VerticalAlignment="Top" Width="21"/>
+        <TextBox x:Name ="TextBox3" HorizontalAlignment="Left" Height="31" Margin="79,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="16"/>
+        <Label Content="Average:" HorizontalAlignment="Left" Margin="4,66,0,0" VerticalAlignment="Top" Width="70" FontSize="16"/>
+        <TextBox x:Name ="TextBox4" HorizontalAlignment="Left" Height="31" Margin="79,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="16"/>
+        <Label Content="Sum:" HorizontalAlignment="Left" Margin="4,97,0,0" VerticalAlignment="Top" Width="70" FontSize="16"/>
+        <TextBox x:Name ="TextBox5" HorizontalAlignment="Left" Height="31" Margin="79,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="16"/>
+        <Label Content="Max:" HorizontalAlignment="Left" Margin="4,128,0,0" VerticalAlignment="Top" Width="70" FontSize="16"/>
+        <TextBox x:Name ="TextBox6" HorizontalAlignment="Left" Height="31" Margin="79,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="16"/>
+        <Label Content="Min:" HorizontalAlignment="Left" Margin="4,159,0,0" VerticalAlignment="Top" Width="70" FontSize="16"/>
+        <ItemsControl ItemsSource="{Binding LinearArguments}" Margin="338,-32,-144,0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="{Binding ColCount}"
+                                 Rows="{Binding RowCount}"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBox Text="{Binding Value}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+    </Grid>
+</Window>
